@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/app/src/main/java/com/robosoft/androidtv/ui/theme/Color.kt;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/app/src/main/java/com/robosoft/androidtv/ui/theme/Theme.kt;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/app/src/main/java/com/robosoft/androidtv/ui/theme/Type.kt;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/app/src/main/java/com/robosoft/androidtv/MainActivity.kt;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/app/src/main/java/com/robosoft/androidtv/NavScreen.kt;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/app/build.gradle.kts;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/build.gradle.kts;/Users/vijay/AndroidStudioProjects/AndroidTVDemo/settings.gradle.kts" />
+  </component>
+</project>

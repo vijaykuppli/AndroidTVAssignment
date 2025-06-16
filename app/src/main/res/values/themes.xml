@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.AndroidTVDemo" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
