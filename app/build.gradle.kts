@@ -57,6 +57,10 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.android.material)
     implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.koin.compose)
+    implementation(libs.androidx.exoplayer)
+    implementation(libs.androidx.media3.ui)
+    implementation(libs.androidx.runtime)
 
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
