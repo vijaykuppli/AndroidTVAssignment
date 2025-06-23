@@ -39,24 +39,13 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavHost
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
 import androidx.tv.material3.CardDefaults
 import androidx.tv.material3.CompactCard
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
-import com.google.tv.material.catalog.LocalNavController
-import com.google.tv.material.catalog.NavGraph
-import com.robosoft.androidtv.NavScreen
 import com.robosoft.androidtv.R
-import com.robosoft.androidtv.catalog.AppBar
 import com.robosoft.androidtv.catalog.PositionFocusedItemInLazyLayout
-import com.robosoft.androidtv.catalog.foundations
 import com.robosoft.androidtv.catalog.ifElse
-import com.robosoft.androidtv.screens.AppNavDrawer
-import com.robosoft.androidtv.screens.SearchScreen
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
