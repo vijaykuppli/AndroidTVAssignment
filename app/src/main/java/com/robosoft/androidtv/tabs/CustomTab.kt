@@ -2,6 +2,7 @@ package com.robosoft.androidtv.tabs
 
 import android.content.Intent
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -16,6 +17,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
@@ -37,7 +39,6 @@ val tabs = listOf(
     "Search", "Movies", "Shows", "Library", "Settings"
 )
 
-@OptIn(ExperimentalTvMaterial3Api::class)
 @Composable
 fun CustomTabsRow() {
     var selectedTabIndex by remember { mutableIntStateOf(0) }
@@ -45,7 +46,7 @@ fun CustomTabsRow() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(vertical = 24.dp, horizontal = 32.dp),
+            .padding(vertical = 24.dp).background(Color.Transparent),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         TabRow(selectedTabIndex = selectedTabIndex) {

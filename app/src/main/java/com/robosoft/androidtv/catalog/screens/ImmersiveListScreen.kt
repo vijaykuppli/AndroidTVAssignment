@@ -66,8 +66,8 @@ fun ImmersiveListScreen() {
         // gradient and text
         Box(
             modifier = Modifier
-                .fillMaxSize()
-                .immersiveListGradient(),
+                .fillMaxSize(),
+//                .immersiveListGradient(),
             contentAlignment = Alignment.TopStart
         ) {
             Column(
